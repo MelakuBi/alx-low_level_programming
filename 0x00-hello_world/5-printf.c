@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char msg "\"programming is like building a multilingual puzzle\n";
-		puts(msg);
+	printf("programming is like building a multilingual puzzle\n");
+		
 				return(0);
 				}
