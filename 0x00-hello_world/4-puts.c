@@ -1,8 +1,14 @@
 #include <stdio.h>
 #include <string.h>
-int main()
+/**
+ * this 
+ * discription
+ * is 
+ * awsom
+ */
+int main(void)
 {
 	char msg[50]="programming is like building a multilingual puzzl";
-		puts(msg);
+		puts (msg);
 				return(0);
 				}
