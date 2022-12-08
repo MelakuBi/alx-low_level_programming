@@ -2,6 +2,7 @@
 #include <string.h>
 int main()
 {
-		puts('"programming is like building a multilingual puzzle');
+	char msg[50]="programming is like building a multilingual puzzl";
+		puts(msg);
 				return(0);
 				}
