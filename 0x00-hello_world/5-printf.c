@@ -1,14 +1,9 @@
 #include <stdio.h>
-#include <string.h>
 /**
- * this 
- * discription
- * is 
- * awsom
+ * comment side
  */
 int main(void)
 {
-	printf("programming is like building a multilingual puzzle\n");
-		
-				return(0);
-				}
+	printf("with proper grammar, but the outcome is apiece of art");
+		return (0);
+}
