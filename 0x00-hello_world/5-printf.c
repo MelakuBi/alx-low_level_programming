@@ -4,6 +4,9 @@
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is apiece of art");
+	printf("with a proper grammar, but the outcomes is apiece of art,");
 		return (0);
+		/*
+		 * no comment
+		 */
 }
