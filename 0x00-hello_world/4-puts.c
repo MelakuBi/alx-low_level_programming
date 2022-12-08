@@ -9,6 +9,6 @@
 int main(void)
 {
 	char msg[50] = "programming is like building a multilingual puzzle";
-		puts('\"' msg);
+		puts("\ msg);
 				return(0);
 				}
