@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /*main - starting of the program and also functions embaded here*/
 /*Rturn: the value*/
 /*______ this is the main function to print negative_______*/
