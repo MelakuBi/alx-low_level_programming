@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*main - starting of the program and also functions embaded here
+/**main - starting of the program and also functions embaded here
  * Rturn: the value
- * Description: the program identifies whether the number is positive or negative
+ * Description: the program identifies 
  */
 int main(void)
 {
