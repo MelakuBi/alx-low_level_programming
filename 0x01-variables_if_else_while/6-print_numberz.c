@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <iostream.h>
 /**
  * main - is mandatory
  * Description: is mandatory
@@ -10,7 +11,7 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 10; i++)
-	printf("%d", i);
-	printf("\n");
+	putchar("%d", i);
+	putchar("\n");
 	return (0);
 }
