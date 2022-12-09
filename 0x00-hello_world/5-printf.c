@@ -2,7 +2,7 @@
 /**
  *main: void type
  *printf: text output
- *return non integer value
+ *Rreturn: non integer value
  */
 int main(void)
 {
