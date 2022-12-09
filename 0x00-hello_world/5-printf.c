@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
- * comment side
+ *main: void type
+ *printf: text output
+ *return non integer value
  */
 int main(void)
 {
-	printf("with a proper grammar, but the outcomes is apiece of art,");
+	printf("witha proper grammar, but the outcome is a piece of art,\n");
 		return (0);
-		/*
-		 * no comment
-		 */
+		
+		
 }

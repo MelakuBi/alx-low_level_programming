@@ -2,6 +2,8 @@
 #include <unistd.h>
 /**
  * main Entry
+ * write: print the letters
+ *
  * Return: always 1
  */
 int main(void)
