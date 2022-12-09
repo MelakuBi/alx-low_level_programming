@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <iostream.h>
 /**
  * main - is mandatory
  * Description: is mandatory
