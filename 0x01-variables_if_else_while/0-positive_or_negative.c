@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /** main - starting of the program and also functions embaded here
- * Rturn: the value
- * Description: the program identifies
+ * Description: the value
+ * Return: the program identifies
  */
 int main(void)
 {
