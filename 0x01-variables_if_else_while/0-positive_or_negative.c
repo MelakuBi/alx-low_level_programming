@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** main - starting of the program and also functions embaded here
- * Description: the value
+/* main - starting of the program and also functions embaded here*/
+/** Description: 'the value'
  * Return: the program identifies
  */
 int main(void)
