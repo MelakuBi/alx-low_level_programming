@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main Entry
+ * main - Entry
  * write: print the letters
  *
- * Return: always 1
+ * Return: to show if there is error
  */
 int main(void)
 {
