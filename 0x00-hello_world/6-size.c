@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *main: Enttry
- *return: zero value
+ *main - Enttry
+ Rreturn: zero value
  */
 int main(void)
 {
