@@ -1,12 +1,11 @@
 #include <stdio.h>
 /**
- *main: void type
+ *main - void type
  *printf: text output
  *Return: non integer value
  */
 int main(void)
 {
-	printf("witha proper grammar, but the outcome is a piece of art,\n");
-		return (0);
-		
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
