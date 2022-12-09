@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
- * comment side
+ * main: Bignning
+ * puts: will print from the arry
  */
 int main(void)
 {
-	printf("\"programming is like building a multilingual puzzle");
-	printf("size of an int: %i byte(s)\n", sizeof(int));
+      	char Mystr [] = "\"programming is like building a multilingual puzzle";
+	puts(Mystr);
 	return (0);
 }
