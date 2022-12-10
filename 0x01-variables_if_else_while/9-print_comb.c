@@ -8,13 +8,15 @@ int main(void)
 {
 	int a;
 
+	int putchar(int chat)
+
 	for (a = 0; a < 10; a++)
 {
 	putchar(a);
 	if (a < 9)
 {
 	putchar(',');
-	putchar("%d", " ");
+	putchar(" ");
 }
 }
 	putchar("%d", "\n");
