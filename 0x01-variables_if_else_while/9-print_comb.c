@@ -2,13 +2,14 @@
 /**
  *main - program starts here
  *Description: this program description
+ *putchar: to accept characters
  *Return: always return success
  */
 int main(void)
 {
 	int a;
 
-	int putchar(int chat)
+	int putchar(int char)
 
 	for (a = 0; a < 10; a++)
 {
