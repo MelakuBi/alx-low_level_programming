@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  *main - start here
  *Description: print lower case alphabet
@@ -12,7 +11,7 @@ int main(void)
 	for (alphabet = 'a'; alphabet <= 'd'; alphabet++)
 {
 	if (alphabet != 'e' && alphabet == 'q')
-	putchar("%d", alphabet);
+	putchar(alphabet);
 }
 	putchar('\n');
 	return (0);
