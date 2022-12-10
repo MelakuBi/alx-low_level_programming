@@ -11,9 +11,9 @@ int main(void)
 	for (a = 0; a < 10; a++)
 {
 	putchar(a);
-	if (n < 9)
+	if (a < 9)
 {
-	putchar(",");
+	putchar(',');
 	putchar(" ");
 }
 }
