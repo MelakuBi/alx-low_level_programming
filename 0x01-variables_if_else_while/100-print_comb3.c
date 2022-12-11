@@ -19,15 +19,15 @@ int main(void)
 	putchar(a);
 	putchar(b);
 /* }*/
-	if (a  == '9' && b == '8')
+	if (b <= '9' && (a == '9' && b == '8'))
 {
 	putchar(',');
 	putchar(' ');
 }
 }
+	b++;
 }
 	a++;
-	b++;
 	putchar('\n');
 	return (0);
 }
