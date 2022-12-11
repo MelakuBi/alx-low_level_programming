@@ -15,8 +15,6 @@ int main(void)
 	b = a + 1;
 	for (b; b <= '9'; b++)
 {
-
-
 	putchar(a);
 	putchar(b);
 	if (a <= '8' && b <= '9')
