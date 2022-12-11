@@ -8,11 +8,10 @@
 int main(void)
 {
 	int a;
-	int b = 0;
 
 	for (a = '0'; a <= '8'; a++)
 {
-	for ( ; b <= '9'; ++b)
+	for (b= '0'; b <= '9'; ++b)
 {
 	if (b <= '9')
 {
