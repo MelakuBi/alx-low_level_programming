@@ -18,6 +18,7 @@ int main(void)
 {
 	c = b + 1;
 	for (c = b; c <= '9'; c++)
+{
 	putchar(a);
 	putchar(b);
 	putchar(c);
@@ -25,6 +26,7 @@ int main(void)
 {
 	putchar(',');
 	putchar(' ');
+}
 }
 }
 }
