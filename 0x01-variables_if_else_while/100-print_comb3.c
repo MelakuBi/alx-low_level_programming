@@ -11,21 +11,20 @@ int main(void)
 	int b;
 
 	for (a = '0'; a <= '8'; a++)
+	b = a + 1;
 {
-	for (b = 0 + 1; b <= '9'; b++)
+	for (b; b <= '9'; b++)
 {
-/*	if (b <= '9')
-{ */
+
+
 	putchar(a);
 	putchar(b);
-/* }*/
-	if (b <= '9' && (a == '9' && b == '8'))
+	if (a <= '8' && b <= '9')
 {
 	putchar(',');
 	putchar(' ');
 }
 }
-	b++;
 }
 	putchar('\n');
 	return (0);
