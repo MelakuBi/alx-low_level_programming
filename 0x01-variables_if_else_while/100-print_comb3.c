@@ -11,8 +11,8 @@ int main(void)
 	int b;
 
 	for (a = '0'; a <= '8'; a++)
-	b = a + 1;
 {
+	b = a + 1;
 	for (b; b <= '9'; b++)
 {
 
