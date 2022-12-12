@@ -26,7 +26,7 @@ int main(void)
 	putchar(' ');
 	putchar(c);
 	putchar(d);
-	if (a <= '9' && b <= '9' && c <= '9' && d <= '9')
+	if (a <= '9' && b <= '7' && c <= '9' && d <= '9')
 	{
 	putchar(',');
 	putchar(' ');
