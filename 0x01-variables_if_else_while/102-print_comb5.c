@@ -11,6 +11,7 @@ int main(void)
 	int b;
 	int c;
 	int d;
+	int i = 1;
 
 	for (a = '0'; a <= '9'; a++)
 {
@@ -21,12 +22,14 @@ int main(void)
 	d = b + 1;
 	for (d = d; d <= '9'; d++)
 {
+	i++;
 	putchar(a);
 	putchar(b);
 	putchar(' ');
 	putchar(c);
 	putchar(d);
-	if (a <= '9' && b <= '9' && c <= '9' && d <= '8')
+/*	if (a <= '9' && b <= '9' && c <= '9' && d <= '8') */
+	if (i <= 2474)
 	{
 	putchar(',');
 	putchar(' ');
