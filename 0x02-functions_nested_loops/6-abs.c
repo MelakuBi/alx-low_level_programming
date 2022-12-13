@@ -1,12 +1,13 @@
 #include "main.h"
 /**
- *_abc - check abc
- *
+ *_abs - check abc
+ *@t: first parametr
+ *Return: good
  */
 	int _abs(int t)
 {
 	if (t >= 0)
 	return (t);
-	else 
+	else
 	return (-t);
 }
