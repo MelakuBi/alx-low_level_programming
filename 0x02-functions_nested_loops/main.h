@@ -1,5 +1,3 @@
-#ifndef HOLBERTON_H_INCLUDE
-#define HOLBERTON_H_INCLUDE
 #ifndef MAIN_H
 #define MAIN_H
 
