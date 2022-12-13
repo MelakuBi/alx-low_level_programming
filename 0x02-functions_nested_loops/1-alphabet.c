@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet: program starting
+ * print_alphabet - program starting
  * Return: Always success
  * Description: to be called by main file
  * print_alphabet: to print a toz

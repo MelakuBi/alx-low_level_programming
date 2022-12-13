@@ -4,9 +4,9 @@
  * Return: success (0)
  *@c: is the character
  */
-	_islower(int c)
+	int _islower(int c)
 {
-	if (c >= 'a' && <= 'z')
+	if (c >= 'a' && c <= 'z')
 	return (1);
 	else
 	return (0);
