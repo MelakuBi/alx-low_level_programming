@@ -6,7 +6,9 @@
  */
 	int print_last_digit(int n)
 {
-	int digit = n % 10;
+	int digit 
+		
+	digit = n % 10;
 
 /*	if (digit == INT_MIN)
 	_putchar(digit + '0');
