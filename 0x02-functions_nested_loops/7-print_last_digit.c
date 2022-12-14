@@ -9,10 +9,10 @@
 	int digit = n % 10;
 
 	if (digit == INT_MIN)
-	_putchar(digit);
+	_putchar(digit + '0');
 
 	else if (digit > 0)
-	_putchar(digit);
+	_putchar(digit + '0');
 
 	else
 	_putchar(digit + '0');
