@@ -11,10 +11,15 @@
 	digit = n % 10;
 
 	if (digit > 0)
-	_putchar(digit * '1');
+{
+	digit *= 1;
+	_putchar(digit);
+}
 	else if (digit == 0)
-	_putchar(digit * '1');
-
+{
+	digit *= 1;
+	_putchar(digit);
+}
 	else
 {
 	digit *= -1;
