@@ -17,6 +17,6 @@
 	else
 	_putchar(digit + '0');
 */
-	_putchar("%d", digit);
+	_putchar("%d", "digit");
 	return (0);
 }
