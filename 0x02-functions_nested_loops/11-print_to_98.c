@@ -13,7 +13,7 @@
 	if (n == 98)
 	{
 	printf("%d", n);
-	_putchar("\n");
+	printf("\n");
 	break;
 	}
 	else
@@ -29,7 +29,7 @@
 	if (n == 98)
 	{
 	printf("%d", n);
-	_putchar("\n", n);
+	printf("\n");
 	break;
 	}
 	else
