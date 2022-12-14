@@ -10,7 +10,13 @@
 	if (digit < 0)
 	digit *= -1;
 
-/*	_putchar(digit + '0');*/
+	else if (digit > 0)
+	digit = digit;
+
+	else
+	digit = digit;
+
+	_putchar(digit + '0');
 
 	return (0);
 }
