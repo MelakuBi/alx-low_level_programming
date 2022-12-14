@@ -12,16 +12,16 @@
 
 	if (digit > 0)
 {
-	_putchar(digit, + '0');
+	_putchar(digit + '0');
 }
 	else if (digit == 0)
 {
-	_putchar(digit, + '0');
+	_putchar(digit + '0');
 }
 	else
 {
 	digit *= -1;
-	_putchar(digit, + '0');
+	_putchar(digit + '0');
 }
 	return (0);
 }
