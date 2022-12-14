@@ -12,7 +12,7 @@
 
 	if (digit < 0)
 {
-	digit *= -i;
+	digit *= -1;
 	_putchar(digit + '0');
 	_putchar('\n');
 }
