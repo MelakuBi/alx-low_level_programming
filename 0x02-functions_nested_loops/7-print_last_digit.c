@@ -10,15 +10,14 @@
 
 	digit = n % 10;
 
-/**	if (digit == INT_MIN)
-	_putchar(digit + '0');
+	if (digit > 0)
+	_putchar(digit);
 
-	else if (digit > 0)
-	_putchar(digit + '0');
+	else if (digit == 0)
+	_putchar(digit);
 
 	else
-	_putchar(digit + '0');
-*/
-	_putchar(digit);
+	_putchar('0' + digit);
+
 	return (0);
 }
