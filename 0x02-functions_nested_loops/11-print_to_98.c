@@ -19,6 +19,8 @@
 	else
 	{
 	printf("%d", n);
+	printf(",");
+	printf(" ");
 	}
 }
 }
@@ -35,6 +37,8 @@
 	else
 	{
 	printf("%d", n);
+	printf(",");
+	printf(" ");
 	}
 	}
 }
