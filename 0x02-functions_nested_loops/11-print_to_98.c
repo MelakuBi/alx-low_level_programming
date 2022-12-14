@@ -24,5 +24,5 @@
 	n++;
 	} while (n <= 98);
 }
-	return (0);
+	return (n);
 }
