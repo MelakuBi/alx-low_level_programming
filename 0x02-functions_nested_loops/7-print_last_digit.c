@@ -1,8 +1,8 @@
-#include <limits.h>
 #include "main.h"
 /**
  *print_last_digit - its important
  *@n: this accept variable value
+ *Return: success no;
  */
 	int print_last_digit(int n)
 {
