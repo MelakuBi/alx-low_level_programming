@@ -5,15 +5,21 @@
  */
 	void print_to_98(int n)
 {
+	int n;
 	if (n >= 98)
 {
-	_putchar("%d", n);
+	do {
+	_putchar(n);
 	n--;
+	} while (n <= 98);
+	_putchar('\n');
+}
 	else
 {
-	while (n < 98)
-	_putchar("%d", n++);
-	_putchar("%d", n);
-}
+	while (n <=98)
+	{
+	_putchar(n);
+	n++;
+	}
 }
 }
