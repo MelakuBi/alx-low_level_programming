@@ -13,17 +13,17 @@
 	if (digit > 0)
 {
 	digit *= 1;
-	_putchar(digit);
+	_putchar('digit');
 }
 	else if (digit == 0)
 {
 	digit *= 1;
-	_putchar(digit);
+	_putchar('digit');
 }
 	else
 {
 	digit *= -1;
-	_putchar(digit);
+	_putchar('digit');
 }
 	return (0);
 }
