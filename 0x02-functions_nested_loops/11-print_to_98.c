@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - print it
  * @n: first variable
@@ -8,7 +9,7 @@
 	if (n >= 98)
 {
 	do {
-	_putchar(n);
+	printf("%d", n);
 	_putchar(',');
 	_putchar(' ');
 	n--;
@@ -18,11 +19,10 @@
 	else
 {
 	do {
-	_putchar(n);
+	printf("%d", n);
 	_putchar(',');
 	_putchar(' ');
 	n++;
 	} while (n <= 98);
 }
-	return (0);
 }
