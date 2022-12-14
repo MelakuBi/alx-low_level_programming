@@ -21,7 +21,7 @@
 	else
 {
 	digit *= -1;
-	_putchar(digit + 'digit');
+	_putchar(digit + digit);
 }
 	return (0);
 }
