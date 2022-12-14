@@ -8,7 +8,7 @@
 	if (n >= 98)
 {
 	do {
-	_putchar("%d", n);
+	_putchar(n);
 	_putchar(',');
 	_putchar(' ');
 	n--;
@@ -19,7 +19,7 @@
 {
 	while (n <=98)
 	{
-	_putchar("%d", n);
+	_putchar(n);
 	_putchar(',');
 	_putchar(' ');
 	n++;
