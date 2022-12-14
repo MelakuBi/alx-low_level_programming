@@ -11,10 +11,9 @@
 	no = n % 10;
 
 	if (no < 0)
-{
 	no *= -1;
-	_putchar(no + 0);
-	_putchar('\n');
-}
+
+	_putchar(no + '0');
+
 	return (0);
 }
