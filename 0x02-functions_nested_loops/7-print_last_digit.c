@@ -15,6 +15,5 @@
 	no *= -1;
 	_putchar(no + 0);
 	_putchar('\n');
-	return (0);
 }
 }
