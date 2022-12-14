@@ -12,18 +12,16 @@
 
 	if (digit > 0)
 {
-	digit *= 1;
-	_putchar('digit');
+	_putchar(digit, + '0');
 }
 	else if (digit == 0)
 {
-	digit *= 1;
-	_putchar('digit');
+	_putchar(digit, + '0');
 }
 	else
 {
 	digit *= -1;
-	_putchar('digit');
+	_putchar(digit, + '0');
 }
 	return (0);
 }
