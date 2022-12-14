@@ -12,7 +12,7 @@
 
 	if (digit > 0)
 {
-	_putchar(digit + '0');
+	_putchar(digit + digit);
 }
 	else if (digit == 0)
 {
@@ -21,7 +21,7 @@
 	else
 {
 	digit *= -1;
-	_putchar(digit + '0');
+	_putchar(digit + 'digit');
 }
 	return (0);
 }
