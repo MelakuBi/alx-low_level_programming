@@ -12,11 +12,11 @@
 	result = a * b;
 	if ((a < 0) || (b < 0))
 {
-	_putchar("%i", -result);
+	result = -result;
 }
 	else
 {
-	_putchar("%d", result);
+	result = result;
 }
-	return (0);
+	return (result);
 }
