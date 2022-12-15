@@ -12,7 +12,7 @@
 	int i;
 	char a[] = "Fizz";
 	char b[] = "Buzz";
-	char c[] = "FizzBuz";
+	char c[] = "FizzBuzz";
 
 	for (i = 1; i <= 100; i++)
 	{
