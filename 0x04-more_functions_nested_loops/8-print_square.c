@@ -3,18 +3,18 @@
  * print_square - to print diagonally
  * @n: accept value
  */
-	void print_square(int n)
+	void print_square(int size)
 {
 	int i;
 	int j;
 
-	if (n <= 0)
+	if (size <= 0)
 {
 	_putchar('\n');
 }
 	else
 {
-	for (i = 1; i <= n; i++)
+	for (i = 1; i <= size; i++)
 	{
 	_putchar('#');
 	for (j = 2; j <= i; j++)
