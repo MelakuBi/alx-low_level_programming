@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /** main - start here
  * 3 multiples print Buzz
  * 5 simula
