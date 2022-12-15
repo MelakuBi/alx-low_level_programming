@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_square - to print diagonally
- * @n: accept value
+ * @size: accept value
  */
 	void print_square(int size)
 {
