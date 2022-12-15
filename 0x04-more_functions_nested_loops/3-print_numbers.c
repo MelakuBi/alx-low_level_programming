@@ -9,6 +9,7 @@
 
 	for (i = 0 ; i <= 9; i++)
 	{
-	_putchar(i, "\n");
+	_putchar(i);
 	}
+	_putchar('\n');
 }
