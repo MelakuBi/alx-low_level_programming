@@ -7,7 +7,7 @@
  * 5 & 3 mult
  * Return: zero for success
  */
-	void fizz_buzz(void)
+	int main(void)
 {
 	int i;
 	char a[] = "Fizz ";
