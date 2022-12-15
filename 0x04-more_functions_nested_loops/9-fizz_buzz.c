@@ -1,13 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - start here
+ * fizz_buzz - start here
  * 3 multiples print Buzz
  * 5 simula
  * 5 & 3 mult
  * Return: zero for success
  */
-	int main(void)
+	void fizz_buzz(void)
 {
 	int i;
 	char a[] = "Fizz ";
