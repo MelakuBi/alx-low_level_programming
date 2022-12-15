@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * fizz_buzz - start here
+ * main - start here
  * 3 multiples print Buzz
  * 5 simula
  * 5 & 3 mult
@@ -10,9 +10,9 @@
 	int main(void)
 {
 	int i;
-	char a[] = "Fizz ";
-	char b[] = "Buzz ";
-	char c[] = "FizzBuzz ";
+	char a[] = "Fizz";
+	char b[] = "Buzz";
+	char c[] = "FizzBuzz";
 
 	for (i = 1; i <= 100; i++)
 	{
@@ -26,6 +26,7 @@
 	printf("%s", b);
 	else
 	printf("%d", i);
+	printf(" ")'
 }
 	printf("\n");
 	return (0);
