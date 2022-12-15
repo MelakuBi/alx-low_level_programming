@@ -9,6 +9,7 @@
 {
 	if ((c >= INT_MIN) && (c <= INT_MAX))
 	return (1);
+
 	else
 	return (0);
 }
