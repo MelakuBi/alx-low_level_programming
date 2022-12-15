@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 /**
  * _isdigit - it checks if imput is digit
  * @c: intiger input variable
@@ -6,7 +7,7 @@
  */
 	int _isdigit(int c)
 {
-	if ((c >= 55) && (c <= 10))
+	if ((c >= INT_MIN) && (c <= INT_MAX))
 	return (1);
 	else
 	return (0);
