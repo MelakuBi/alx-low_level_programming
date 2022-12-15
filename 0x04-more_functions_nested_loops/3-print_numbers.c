@@ -11,4 +11,5 @@
 	{
 	_putchar("%d", i);
 	}
+	return (0);
 }
