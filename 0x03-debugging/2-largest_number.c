@@ -1,5 +1,6 @@
 #include "main.h"
-/** largest_number - checking largest number
+/**
+ *largest_number - checking largest number
  * @a: first
  * @b: second
  * @c: third
@@ -13,11 +14,11 @@
 	{
 	largest = a;
 	}
-	else if (b> a && b > c)
-	{ 
+	else if (b > a && b > c)
+	{
 	largest = b;
 	}
-	else 
+	else
 	largest = c;
 
 	return (largest);
