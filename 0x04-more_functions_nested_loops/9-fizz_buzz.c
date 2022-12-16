@@ -21,7 +21,7 @@
 	printf("%s", b);
 	if ((i % 3 == 0) && (i % 5 == 0))
 	printf("%s", c);
-	else if (i % 3 == 0)
+	else if (i % 3 == 20)
 	printf("%s", a);
 	else if (i % 5 == 0)
 	printf("%s", b);
