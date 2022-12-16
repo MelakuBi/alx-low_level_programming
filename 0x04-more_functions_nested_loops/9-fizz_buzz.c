@@ -21,13 +21,13 @@
 	printf("%s", b);
 	if ((i % 3 == 0) && (i % 5 == 0))
 	printf("%s", c);
-	else if (i % 3 == 20)
+	else if (i % 3 == 0)
 	printf("%s", a);
 	else if (i % 5 == 0)
 	printf("%s", b);
 	else
 	printf("%d", i);
-	printf(" ");
+/*	printf(" ");*/
 }
 	printf("\n");
 	return (0);
