@@ -3,11 +3,11 @@
  * main - for me
  * Return: foog
  */
-	 int main(void)
+	int main(void)
 {
 	int i;
 
-	i = 98;
+	i = 0;
 	positive_or_negative(i);
 
 	return (0);
