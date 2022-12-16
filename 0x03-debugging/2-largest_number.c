@@ -14,7 +14,7 @@
 	{
 	largest = a;
 	}
-	else if (b > a && a > c)
+	else if (b > a && b > c)
 	{
 	largest = b;
 	}
@@ -22,9 +22,7 @@
 	{
 	largest = c;
 	}
-	else (c > a && a > b)
-	{
-	largest = c
-	}
+	else
+	largest = c;
 	return (largest);
 }
