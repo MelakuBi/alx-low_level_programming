@@ -4,7 +4,7 @@
  * @a: first
  * @b: second
  * @c: third
- * Return : largest number
+ * Return: largest number
  */
 	int largest_number(int a, int b, int c)
 {
@@ -18,10 +18,13 @@
 	{
 	largest = b;
 	}
-	else
+	else if (c > a && c > b)
+	{
 	largest = c;
-
+	}
+	else (c > a && a > b)
+	{
+	largest = c
+	}
 	return (largest);
 }
-
-
