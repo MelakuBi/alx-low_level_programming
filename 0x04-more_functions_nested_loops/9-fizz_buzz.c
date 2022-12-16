@@ -17,9 +17,8 @@
 
 	for (i = 1; i <= 100; i++)
 	{
-/**	if (i == 100)
-*	printf("%s", b);
-*/
+	if (i == 100)
+	printf("%s", b);
 	if ((i % 3 == 0) && (i % 5 == 0))
 	printf("%s", c);
 	else if (i % 3 == 0)
@@ -27,7 +26,7 @@
 	else if (i % 5 == 0)
 	printf("%s", b);
 	else
-	printf("%d", i);
+	printf("%d", ii);
 	printf(" ");
 }
 	printf("\n");
