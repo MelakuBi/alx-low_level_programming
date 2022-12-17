@@ -21,28 +21,24 @@
 	if (i == 100)
 	{
 	printf("%s", b);
-	printf(" ");
 	}
 	else if ((i % 3 == 0) && (i % 5 == 0))
 	{
 	printf("%s", c);
-	printf(" ");
 	}
 	else if (i % 3 == 0)
 	{
 	printf("%s", a);
-	printf(" ");
 	}
 	else if (i % 5 == 0)
 	{
 	printf("%s", b);
-	printf(" ");
 	}
 	else
 	{
 	printf("%d", i);
-	printf(" ");
 	}
+	printf(" ");
 }
 	printf("\n");
 	return (0);
