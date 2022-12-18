@@ -3,7 +3,7 @@
  * print_numbers - to print intiger
  * @n: variable to accept number
  */
-	void print_numbers(int n)
+	void print_number(int n)
 {
 	int i;
 
