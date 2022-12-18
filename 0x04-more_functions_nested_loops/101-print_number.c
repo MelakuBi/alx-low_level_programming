@@ -14,6 +14,5 @@
 	_putchar(n * -1);
 	else
 	_putchar(n);
-	_putchar('\n');
 }
 }
