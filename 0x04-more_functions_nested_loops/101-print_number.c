@@ -8,7 +8,7 @@
 {
 	int i;
 	
-	for (i = 1 i <=5; i++)
+	for (i = 1 i <= 5; i++)
 {
 	if (n < 0)
 	_putchar(n * -1);
