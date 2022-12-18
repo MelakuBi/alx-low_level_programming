@@ -13,6 +13,6 @@
 	_putchar(n * -1);
 	else
 	_putchar(n);
-	} while (n != NULL);
+	} while (n == NULL);
 }
 }
