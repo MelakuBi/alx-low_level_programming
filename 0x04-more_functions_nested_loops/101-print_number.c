@@ -10,10 +10,9 @@
 
 	for (i = 0; i <= 5; i++)
 {
-/*	if (n < 0)
+	if (n < 0)
 	_putchar(n * -1);
 	else
-*/
 	_putchar(n);
 }
 }
