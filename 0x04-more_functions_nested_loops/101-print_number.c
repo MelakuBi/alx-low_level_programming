@@ -10,9 +10,11 @@
 	
 	for (i = 0 i <= 4; i++)
 {
+/*
 	if (n < 0)
 	_putchar(n * -1);
 	else
+*/
 	_putchar(n);
 	_putchar('\n');
 }
