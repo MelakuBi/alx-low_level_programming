@@ -8,11 +8,15 @@
 {
 	int i;
 
-	do {
+/*	for (i 
 	if (n < 0)
 	_putchar(n * -1);
 	else
 	_putchar(n);
-	} while (n == NULL);
-}
+*/
+	_putchar(n);
+	_putchar(n);
+	_putchar(n);
+	_putchar(n);
+	_putchar(n);
 }
