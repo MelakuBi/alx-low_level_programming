@@ -26,6 +26,7 @@
 	void fizz_buzz(void);
 	int main(void);
 	void print_number(int n);
+	void print_numbers(void);
 
 
 #endif		
