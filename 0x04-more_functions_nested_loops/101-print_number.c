@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_numbers - to print intiger
  * @n: variable to accept number
