@@ -6,15 +6,14 @@
  */
 	void print_number(int n)
 {
-	int i, s;
-	s = n;
+	int i;
 
 	for (i = 0; i <= 4; i++)
 {
-	if (s < 0)
-	_putchar(s * -1);
+	if (n < 0)
+	_putchar(n * -1);
 	else
-	_putchar(s);
+	_putchar(n);
 	_putchar('\n');
 }
 }
