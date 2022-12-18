@@ -5,5 +5,8 @@
  */
 	void print_numbers(int n)
 {
-	_putchar(n);
+	int i;
+
+	for (i = 0; i <= 4; i++)
+	_putchar("%d", n);
 }
