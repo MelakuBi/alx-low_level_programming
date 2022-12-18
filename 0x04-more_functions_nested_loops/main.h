@@ -27,6 +27,6 @@
 	int main(void);
 	void print_number(int n);
 	void print_numbers(void);
-	void _putchar(int);
+	void _putchar(int c);
 
 #endif		
