@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_numbers - to print intiger
+ * print_number- to print intiger
  * @n: variable to accept number
  */
 	void print_number(int n)
