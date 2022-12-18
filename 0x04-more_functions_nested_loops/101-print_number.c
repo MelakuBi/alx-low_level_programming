@@ -9,5 +9,5 @@
 	int i;
 
 	for (i = 0; i <= 4; i++)
-	_putchar("%d", n);
+	_putchar(n);
 }
