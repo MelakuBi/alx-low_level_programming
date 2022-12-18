@@ -7,11 +7,14 @@
 	void print_number(int n)
 {
 	int i;
-
+	
+	for (i = 1 i <=5; i++)
+{
 	if (n < 0)
 	_putchar(n * -1);
 	else
 	_putchar(n);
+}
 /*
 	_putchar(n);
 	_putchar('\n');
