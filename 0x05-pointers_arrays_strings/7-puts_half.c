@@ -8,13 +8,13 @@
 	int l, m, n;
 
 	for (l = 0; str[l] != '\0'; l++)
-	c++;
+	n++;
 
 	m = (n/2);
 
 	if ((n % 2) == 1)
 		m = ((n + 1) / 2);
-	for (l = m; str[l]; != '\0'; l++)
+	for (l = m; str[l] != '\0'; l++)
 	_putchar (str[l]);
 	_putchar ('\n')
 i}
