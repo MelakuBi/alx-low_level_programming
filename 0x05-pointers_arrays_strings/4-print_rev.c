@@ -8,17 +8,17 @@
 	char set = s[0];
 	int i = 0;
 	int len;
-	int j = 0;
+	int j;
 
 	while (s[i] != '\0')
 	{
-	set = s[i];
 	i++;
 	}
 	for (len = i; len <= 0; len--)
 {
-	s[j] = set[len];
-	j++;	
+	set = s[len];	
 }
+	_putchar(set);
+	_putchar('\n');
 }
 
