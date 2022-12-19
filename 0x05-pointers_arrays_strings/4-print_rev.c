@@ -5,7 +5,7 @@
  */
 	void print_rev(char *s)
 {
-	char set = s[0];
+	char set;
 	int i = 0;
 	int len;
 /*	int j;*/
