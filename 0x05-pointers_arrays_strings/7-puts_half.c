@@ -16,5 +16,5 @@
 		m = ((n + 1) / 2);
 	for (l = m; str[l] != '\0'; l++)
 	_putchar (str[l]);
-	_putchar ('\n')
-i}
+	_putchar ('\n');
+}
