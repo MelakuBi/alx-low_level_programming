@@ -5,15 +5,15 @@
  */
 	void print_rev(char *s)
 {
-	char set;
+	char set = s[0];
 	int i = 0;
 	int len;
 	int j = 0;
 
 	while (s[i] != '\0')
 	{
-	i++;
 	set = s[i];
+	i++;
 	}
 	for (len = i; len <= 0; len--)
 {
