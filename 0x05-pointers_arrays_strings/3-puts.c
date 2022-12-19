@@ -5,5 +5,5 @@
  */
 	void _puts(char *str)
 {
-	puts(str"\n");
+	_puts(str"\n");
 }
