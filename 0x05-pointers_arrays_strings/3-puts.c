@@ -5,6 +5,6 @@
  */
 	void _puts(char *str)
 {
-	_puts(str\n);
+	_puts(str(\n));
 	
 }
