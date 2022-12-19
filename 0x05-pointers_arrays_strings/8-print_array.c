@@ -3,7 +3,7 @@
 /**
  * print_array - aray
  * @a: first var
- * @b: second bar
+ * @n: second bar
  */
 	void print_array(int *a, int n)
 {
