@@ -8,9 +8,8 @@
 {
 	char str;
 	int count = 0;
-	int i = 1;
 
-	str = s;
+	str = *s;
 	while (str != '\0')
 	{
 	count++;
