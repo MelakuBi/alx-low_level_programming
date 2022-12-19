@@ -15,5 +15,5 @@
 	else
 	continue;
 }
-	_putchart('\n');
+	_putchar('\n');
 }
