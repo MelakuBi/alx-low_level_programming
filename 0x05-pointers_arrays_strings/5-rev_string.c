@@ -13,11 +13,11 @@
 	while (s[count] != '\0')
 	count++;
 
-	for (i = 0; i < counter; i++)
+	for (i = 0; i < count; i++)
 {
 	count--;
-	rev = s[i];
+	set = s[i];
 	s[i] = s[count];
-	s[count] = rev;
+	s[count] = set;
 }
 }
