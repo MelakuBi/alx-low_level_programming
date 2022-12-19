@@ -8,11 +8,12 @@
 {
 	char str = *s;
 	int count = 0;
-	char hold[str];
+	int i = 0;
 
-	while (hold[str] != '\0')
+	while (str[i] != '\0')
 	{
 	count++;
+	i++;
 	}
 	return (count);
 }
