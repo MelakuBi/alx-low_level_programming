@@ -9,7 +9,7 @@
 
 	while (str[i] != '\0')
 	{
-	_putchar(str[i])
+	_puts(str[i]);
 	i++;
 	}
 	_putchar('\n');
