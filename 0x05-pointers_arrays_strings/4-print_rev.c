@@ -8,7 +8,7 @@
 	char set = s[0];
 	int i = 0;
 	int len;
-	int j;
+/*	int j;*/
 
 	while (s[i] != '\0')
 	{
