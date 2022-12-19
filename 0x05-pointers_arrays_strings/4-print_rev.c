@@ -5,16 +5,18 @@
  */
 	void print_rev(char *s)
 {
-/*	char rev; */
-	int i, len;
+	int i = 0;
+	int len;
+	int j = 0;
 
-	len = _strlen(s);
-	len = len - 1;
 	while (s[i] != '\0')
 	{
-	s[len] = s[i];
-	len--;
 	i++;
 	}
+	for (len = i; len <= 0; len--)
+{
+	s[j] = s[len];
+	j++;	
+}
 }
 
