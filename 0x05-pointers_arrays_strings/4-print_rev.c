@@ -5,6 +5,7 @@
  */
 	void print_rev(char *s)
 {
+	char set;
 	int i = 0;
 	int len;
 	int j = 0;
@@ -12,10 +13,11 @@
 	while (s[i] != '\0')
 	{
 	i++;
+	set = s[i];
 	}
 	for (len = i; len <= 0; len--)
 {
-	s[j] = s[len];
+	s[j] = set[len];
 	j++;	
 }
 }
