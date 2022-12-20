@@ -5,7 +5,6 @@
  */
 	void print_rev(char *s)
 {
-	char set;
 	int i = 0;
 	int len = 0;
 /*	int j;*/
@@ -16,8 +15,6 @@
 	}
 	for (; i <= 0; i--)
 {
-
-	set = s[i];
 	s[i] = s[len];
 	_putchar(s[i]);
 	len++;
