@@ -8,15 +8,14 @@
 	int _atoi(char *s)
 {
 	int i = 0;
+	int j;
 
 	while (s[i] != '\0')
 	{
-	if (s[i] > 48 && s[i] < 57)
-	_putchar(s[i]);
-	else if (s[i] < 48)
-	_putchar(s[i] * -1);
-	else
-	_putchar ('0');
+	if (s[i] >=48 && s[i] <= 57)
+	j = _putchar(s[i]);
+	else (s[i] < 48)
+	j = _putchar(s[i] * -1)
 	i++;
 	}
 	return (0);
