@@ -19,7 +19,7 @@
 
 	set = s[i];
 	s[i] = s[len];
-	_putchar([s[i]);
+	_putchar(s[i]);
 	len++;
 }
 	_putchar('\n');
