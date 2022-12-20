@@ -22,7 +22,8 @@
 	s[len] = set;
 	len++;
 }
-	_putchar(s);
+	set = s;
+	_putchar(set);
 	_putchar('\n');
 }
 
