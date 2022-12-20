@@ -7,17 +7,20 @@
 {
 	char set;
 	int i = 0;
-	int len;
+	int len = 0;
 /*	int j;*/
 
 	while (s[i] != '\0')
 	{
-	set = s[i];
 	i++;
 	}
-	for (len = i; len <= 0; len--)
+	for (; i <= 0; i--)
 {
-	*s = set[len];
+
+	set = s[i];
+	s[i] = s[len]
+	s[len] = set;
+	len++;
 }
 	_putchar(s);
 	_putchar('\n');
