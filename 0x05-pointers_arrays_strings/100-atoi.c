@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _atoi - convert string to intiger
  * @s: pointer to the string
@@ -10,7 +11,7 @@
 
 	while (s[i] != '\0')
 	{
-	_putchar("%d", s[i]);
+	printf("%d", s[i]);
 	i++;
 	}
 	return (0);
