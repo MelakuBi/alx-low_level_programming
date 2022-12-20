@@ -22,7 +22,7 @@
 	s[len] = set;
 	len++;
 }
-	_putchar("%d", s);
+	_putchar(s);
 	_putchar('\n');
 }
 
