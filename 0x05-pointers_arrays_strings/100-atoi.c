@@ -8,18 +8,20 @@
 	int _atoi(char *s)
 {
 	int i = 0;
+	int j;
 
 	while (s[i] != '\0')
 	{
 	if (s[i] > 48 && s[i] <= 57)
 	{
 	if (s[i] < '0')
-	return (_putchar (s[i] * -1));
+	j = _putchar (s[i] * -1);
 	else if (s[i] > '0')
-	return (_putchar (s[i]));
+	j = _putchar (s[i]);
 	else
-	return (_putchar ('0'));
+	j = _putchar ('0');
 	i++;
 	}
 }
+	return (j);
 }
