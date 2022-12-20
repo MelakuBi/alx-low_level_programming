@@ -11,9 +11,9 @@
 
 	while (s[i] != '\0')
 	{
-	if (s[i] > 48 && s[i] < 57)
+	if (s[i] > "48" && s[i] < "57")
 	_putchar(s[i]);
-	else if (s[i] < 48)
+	else if (s[i] < "48")
 	_putchar(s[i] * -1);
 	else
 	_putchar ('0');
