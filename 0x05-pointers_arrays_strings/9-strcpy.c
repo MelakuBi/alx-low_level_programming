@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcp - copy strings from index
+ * _strcpy - copy strings from index
  * @dest: put the value here
  * @src: recieve the value from here
  * Return: value of variables
