@@ -18,7 +18,7 @@
 {
 
 	set = s[i];
-	s[i] = s[len]
+	s[i] = s[len];
 	s[len] = set;
 	len++;
 }
