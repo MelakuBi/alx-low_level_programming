@@ -14,9 +14,9 @@
 	{
 	if (s[i] > 48 && s[i] <= 57)
 	{
-	if (s[i] < '0')
+	if (s[i] < 48)
 	j = _putchar (s[i] * -1);
-	else if (s[i] > '0')
+	else if (s[i] > 48)
 	j = _putchar (s[i]);
 	else
 	j = _putchar ('0');
