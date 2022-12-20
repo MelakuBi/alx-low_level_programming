@@ -19,11 +19,9 @@
 
 	set = s[i];
 	s[i] = s[len];
-	s[len] = set;
+	_putchar( set);
 	len++;
 }
-	set = *s;
-	_putchar(set);
 	_putchar('\n');
 }
 
