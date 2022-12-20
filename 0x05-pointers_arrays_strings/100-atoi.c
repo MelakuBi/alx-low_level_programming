@@ -13,9 +13,9 @@
 	while (s[i] != '\0')
 	{
 	if (s[i] >= 48 && s[i] <= 57)
-	j = _putchar(s[i]);
+	j = s[i];
 	else
-	j = _putchar("-", s[i]);
+	j = s[i] * -1; 
 	i++;
 	}
 	return (j);
