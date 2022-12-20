@@ -17,7 +17,7 @@
 	}
 	for (len = i; len <= 0; len--)
 {
-	*s = s[len];
+	*s = set[len];
 }
 	_putchar(s);
 	_putchar('\n');
