@@ -8,7 +8,6 @@
 	int _atoi(char *s)
 {
 	int i = 0;
-	int j;
 
 	while (s[i] != '\0')
 	{
@@ -19,7 +18,7 @@
 	else if (s[i] > '0')
 	return (_putchar (s[i]));
 	else
-	return (_putchar ("0"));
+	return (_putchar ('0'));
 	i++;
 	}
 }
