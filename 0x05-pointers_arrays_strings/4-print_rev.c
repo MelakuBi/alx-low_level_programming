@@ -12,13 +12,14 @@
 
 	while (s[i] != '\0')
 	{
+	set = s[i];
 	i++;
 	}
 	for (len = i; len <= 0; len--)
 {
-	set = s[len];	
+	*s = s[len];
 }
-	_putchar(set);
+	_putchar(s);
 	_putchar('\n');
 }
 
