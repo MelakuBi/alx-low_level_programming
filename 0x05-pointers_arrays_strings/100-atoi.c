@@ -18,5 +18,5 @@
 	j = _putchar(s[i] * -1)
 	i++;
 	}
-	return (0);
+	return (j);
 }
