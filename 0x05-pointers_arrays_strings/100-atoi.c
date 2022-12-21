@@ -13,7 +13,7 @@
 	{
 	if (s[i] > 48 && s[i] <= 57)
 	_putchar (s[i]);
-	else (s[i] == 45 && (s[i + 1] > 48 && s[i + 1] <= 57))
+	else if (s[i] == 45 && (s[i + 1] > 48 && s[i + 1] <= 57))
 	{
 	_putchar (45);
 	_putchar (s[i]);
