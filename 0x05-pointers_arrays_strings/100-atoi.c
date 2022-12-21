@@ -13,18 +13,16 @@
 	while (s[i] != '\0')
 	{
 	if (s[i] > 48 && s[i] <= 57)
+	_putchar (s[i]);
+	else if (s[i] == 45 && (s[i + 1] > 48 && s[i + 1] <= 57))
 	{
-	if (s[i] == 45)
-	{
-	j = _putchar (45);
-	j = _putchar (s[i]);
+	_putchar (i);
+	_putchar (s[i + 1]);
 	}
 	else
-	j = _putchar (s[i]);
-	}
-	else
-	j = _putchar ('0');
+	_putchar ('0');
 	i++;
 	}
-	return (j);
+
+	return (0);
 }
