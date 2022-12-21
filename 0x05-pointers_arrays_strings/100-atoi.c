@@ -14,14 +14,14 @@
 	{
 	if (s[i] > 48 && s[i] <= 57)
 	{
-	if (s[i] < 48)
-	j = _putchar (s[i] * -1);
-	else if (s[i] > 48)
+	if (s[i] == 45 && (s[i] > 49 && s[i] <= 57))
+	j = _putchar (45, s[i]);
+	else
 	j = _putchar (s[i]);
+	}
 	else
 	j = _putchar ('0');
 	i++;
 	}
-}
-	return (j);
+}	return (j);
 }
