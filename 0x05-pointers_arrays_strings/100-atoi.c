@@ -26,5 +26,5 @@
 	j = _putchar ('0');
 	i++;
 	}
-}	return (j);
+	return (j);
 }
