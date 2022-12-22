@@ -11,7 +11,7 @@
 	while (a[i] != '\0')
 	i++;
 
-	for (; j < n; j++)
+	for (; j <= n - 1; j++)
 	{
 	m = a[j];
 	a[i] = m;
