@@ -3,6 +3,7 @@
  * *_strncat - concatinate strings and end at n
  * @dest: accept concatenated strings
  * @src: second string
+ * @n: control end
  * Return: pass dest to main function
  */
 	char *_strncat(char *dest, char *src, int n)
@@ -14,7 +15,7 @@
 
 	while (src[counter2])
 	{
-	if (counter2 <= n)
+	if (counter2 < n)
 	{
 	dest[counter1] = src[counter2];
 	counter1++;
