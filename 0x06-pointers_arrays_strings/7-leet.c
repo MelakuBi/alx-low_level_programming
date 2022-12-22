@@ -6,7 +6,7 @@
 	char *leet(char *s)
 {
 	char *m = "aeotl";
-	char M = "AEOTL";
+	char *M = "AEOTL";
 	int x[] = {'4', '3', '0', '7', '1'};
 	int i;
 	char *p = s;
