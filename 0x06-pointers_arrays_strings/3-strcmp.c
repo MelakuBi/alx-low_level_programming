@@ -5,7 +5,7 @@
  * @s2: variable to give value
  * Return: return intiger
  */
-	char *_strcmp(char s1, char s2)
+	char _strcmp(char s1, char s2)
 {
 	int i = 0, j = 0;
 
