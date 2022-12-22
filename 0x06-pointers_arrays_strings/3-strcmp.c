@@ -9,10 +9,10 @@
 {
 	int i = 0, j = 0;
 
-	while (s1[i])
+	while (s1[i] != '\0')
 	i++;
 
-	while (s2[j])
+	while (s2[j] != '\0')
 	j++;
 
 	return (i - j);
