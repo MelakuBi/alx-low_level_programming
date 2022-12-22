@@ -12,11 +12,11 @@
 	while (dest[counter1] != '\0')
 	counter1++;
 
-	while (src[counter2] != '\0')
+	while (src[counter2])
 	{
 	dest[counter1] = src[counter2];
 	counter1++;
 	counter2++;
 	}
-	return (0);
+	return (dest);
 }
