@@ -9,7 +9,7 @@
 	int i = 0, j = 0, m;
 
 	while (a[i] != '\0')
-	i++
+	i++;
 	for (; j <= n; j++)
 	{
 	m = a[j];
