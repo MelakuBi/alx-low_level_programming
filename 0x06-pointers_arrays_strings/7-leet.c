@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * *leet - good
+ * @s: balege
  * Return: char
  */
 	char *leet(char *s)
