@@ -12,11 +12,16 @@
 	while (dest[counter1] != '\0')
 	counter1++;
 
-	while (src[counter2] < n)
+	while (src[counter2])
+	{
+	if (counter2 < n - 1)
 	{
 	dest[counter1] = src[counter2];
 	counter1++;
 	counter2++;
+	}
+	else
+	break;
 	}
 	return (dest);
 }
