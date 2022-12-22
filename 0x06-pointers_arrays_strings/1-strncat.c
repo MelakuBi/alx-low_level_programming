@@ -14,7 +14,7 @@
 
 	while (src[counter2])
 	{
-	if (counter2 < n - 1)
+	if (counter2 < n)
 	{
 	dest[counter1] = src[counter2];
 	counter1++;
