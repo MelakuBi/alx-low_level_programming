@@ -11,11 +11,11 @@
 	while (a[i] != '\0')
 	i++;
 
-	for (; j < n; j++)
+	{
+	for (j = 0; j < n; j++)
 	{
 	m = a[j];
 	a[i] = m;
 	i--;
 	}
-	_putchar(a);
 }
