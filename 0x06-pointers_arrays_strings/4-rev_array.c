@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * reverse_array - function to reverse array contents
  * @a: pointer to variable
@@ -15,9 +14,10 @@
 	{
 	if (j != i)
 	{
-	printf(", ");
+	_putchar(',');
+	_putchar(' ');
 	}
-	printf("%d", a[j]);
+	_putchar(a[j]);
 	}
-	printf("\n");
+	_putchar('\n');
 }
