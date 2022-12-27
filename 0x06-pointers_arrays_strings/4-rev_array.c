@@ -10,13 +10,12 @@
 
 	while (i < n)
 	i++;
-	
 	for (j = i; j >= 0; j--)
 	{
 	if (j != i)
 	{
 	_putchar(',');
-	_putchar(' ';
+	_putchar(' ');
 	}
 	_putchar(a[j]);
 	}
