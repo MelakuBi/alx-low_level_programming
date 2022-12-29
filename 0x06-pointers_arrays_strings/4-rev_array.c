@@ -10,7 +10,7 @@
 
 	while (i < n)
 	i++;
-	for (j = 0; j <= n; j++)
+	for (j = 0; j < n; j++)
 	{
 	m = a[j];
 	a[j] = a[i];
