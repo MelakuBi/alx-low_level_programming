@@ -9,9 +9,9 @@
 {
 	int i = 0, j, m;
 
-	while (i <= n)
+	while (i < n)
 	i++;
-	for (j = 0; j <= n; j++)
+	for (j = i; j < n; j++)
 	{
 	if (j != 0)
 	{
