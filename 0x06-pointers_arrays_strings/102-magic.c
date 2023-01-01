@@ -34,7 +34,7 @@ int main(void)
 		     *
 		     *                      */
 
-		  n = 98;
+		     n = 98;
 
 		      /* ...so that this prints 98\n */
 
