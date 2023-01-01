@@ -25,4 +25,5 @@
 	i--;
 	printf("%d", a[i]);
 	}
+	printf("\n");
 }
