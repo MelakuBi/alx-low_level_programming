@@ -12,7 +12,7 @@
 	while (i < n)
 	i++;
 	k = i;
-	for (j = 0; j < k; j++)
+	for (j = 0; j <= k; j++)
 	{
 	if (j != 0)
 	{
