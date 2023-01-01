@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * reverse_array - function to reverse array contents
  * @a: pointer to variable
@@ -13,9 +14,15 @@
 	k = i;
 	for (j = 0; j < k; j++)
 	{
+	if (j != 0)
+	{
+	printf(",");
+	printf(" ");
+	}
 	m = a[j];
 	a[j] = a[i];
 	a[i] = m;
 	i--;
+	printf("%d", a[i]);
 	}
 }
