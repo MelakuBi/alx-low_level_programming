@@ -16,8 +16,7 @@
 	{
 	if (j != 0)
 	{
-	printf(",");
-	printf(" ");
+	printf(", ");
 	}
 	m = a[j];
 	a[j] = a[i];
