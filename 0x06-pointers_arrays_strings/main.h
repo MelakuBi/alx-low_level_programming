@@ -9,4 +9,5 @@
 	void reverse_array(int *a, int n);
 	char *string_toupper(char *);
 	char *leet(char *s);
+	int main(void);
 #endif
