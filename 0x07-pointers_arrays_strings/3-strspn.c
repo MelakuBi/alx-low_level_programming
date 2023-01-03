@@ -15,10 +15,10 @@
 	{
 	if (*s == *accept)
 	break;
-	count++;
 	accept++;
 	s++;
 	}
+	count++;
 	if (*accept == '\0')
 	break;
 	}
