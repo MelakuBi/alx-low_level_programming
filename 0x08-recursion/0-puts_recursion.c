@@ -8,7 +8,7 @@
 {
 	int i, j = 0;
 
-	while (s != '\0')
+	while (*s)
 	j++;
 	for (i = 0; i < j; i++)
 	_putchar(s[j]);
