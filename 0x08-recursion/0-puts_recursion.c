@@ -8,9 +8,10 @@
 {
 	int i, j = 0;
 
-	while (*s)
-	j++;
-	for (i = 0; i < j; i++)
-	_putchar(s[j]);
+	if (s)
+	{
+	_putchar(*s);
+	_puts_recursion(s + 1);
+	}
 	_putchar('\n');
 }
