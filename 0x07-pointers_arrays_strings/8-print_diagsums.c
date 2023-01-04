@@ -15,9 +15,11 @@
 	for (i = 0; i < size; i++)
 {
 	if (size == 5)
-	c = c + *(a + i * 6);
+	{
+	c = c + *(a +(i * 6));
+	}
 	else
-	c = c + *(a + i * 4);
+	c = c + *(a + (i * 4));
 }
 	for (j = 0; j < size; j++)
 {
