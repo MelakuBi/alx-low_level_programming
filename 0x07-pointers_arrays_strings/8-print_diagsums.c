@@ -7,17 +7,17 @@
  */
 	void print_diagsums(int *a, int size)
 {
-	int b = 0, c, d = 0, e = 0;
+	int i, j;
+	int c = 0;
+	int d = 0;
 
-	if (b  < size)
-	{
-	d = d + *(a + b * sizeof(int));
-	b++;
-	}
-	for (c = 0; c < size; c++)
-	{
-	e = e + *(a + (size * c) + (size - c - 1));
-	}
-	_putchar(c, d);
-	_putchar('\n');
+	for (i = 0; i < size; i++)
+{
+	c = c + *(a + i * sizeof(int));
+}
+	for (j = 0; j < size; j++)
+{
+	d = d + *(a + (size * j) + (size - j - 1));
+}
+	printf("%d, %d\n", c, d);
 }
