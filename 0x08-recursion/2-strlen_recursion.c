@@ -13,7 +13,6 @@
 	a++;
 	_strlen_recursion(s + 1);
 	}
-	else
 	return (a);
 }
 
