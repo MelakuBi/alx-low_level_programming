@@ -4,7 +4,6 @@
  * @n: number
  * Return: okay
  */
-{
 	int factorial(int n)
 	{
 	int fac = 1;
