@@ -8,11 +8,11 @@
 {
 	int a = 1;
 
-	if (*s)
+	if (*s == 0)
 	{
-	a++;
+	return (0);
 	}
-	_strlen_recursion(s + 1);
+	a = _strlen_recursion(s + 1);
 	return (a);
 }
 
