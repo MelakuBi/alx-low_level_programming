@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _strlen_recursion - counts length of strings
+ * _strlen_recursion - counts length of strings
  * @s: string poiner
  * Return: length of string
  */
