@@ -5,7 +5,7 @@
  * Return: integer
  * @y : variable
  */
-	int _pow_recursion(int t, int y)
+	int _pow_recursion(int x, int y)
 {
 	int pw = 1;
 
