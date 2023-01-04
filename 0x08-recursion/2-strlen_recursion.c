@@ -4,7 +4,7 @@
  * @s: string poiner
  * Return: length of string
  */
-	int _strlen_recursion(char *s);
+	int _strlen_recursion(char *s)
 {
 	int a = 0;
 
