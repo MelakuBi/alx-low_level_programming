@@ -12,7 +12,7 @@
 	{
 	return (0);
 	}
-	_strlen_recursion(s + 1);
+	a = _strlen_recursion(s + 1);
 	return (a + 1);
 }
 
