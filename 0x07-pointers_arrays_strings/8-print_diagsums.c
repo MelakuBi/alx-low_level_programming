@@ -20,5 +20,5 @@
 {
 	d = d + *(a + (size * j) + (size - j - 1));
 }
-	_putchar(c, d);
+	printf("%d, %d", c, d);
 }
