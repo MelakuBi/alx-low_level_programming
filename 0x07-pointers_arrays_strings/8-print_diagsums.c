@@ -20,5 +20,5 @@
 {
 	d = d + *(a + (size * j) + (size - j - 1));
 }
-	printf("%d, %d", c, d);
+	printf("%d, %d\n", c, d);
 }
