@@ -14,7 +14,7 @@
 
 	for (i = 0; i < size; i++)
 {
-	if (size == '5')
+	if (size == 5)
 	c = c + *(a + i * 6);
 	else
 	c = c + *(a + i * sizeof(int));
