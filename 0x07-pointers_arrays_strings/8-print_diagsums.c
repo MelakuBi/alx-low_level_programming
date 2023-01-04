@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_diagsums - prints the sums of diagonals .
  * @a: pointer to an array
