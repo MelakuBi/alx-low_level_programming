@@ -10,9 +10,7 @@
 {
 	while (argc--)
 	{
-	(void) argc;
-	printf("%s\n", *argv);
-	argv++;
+	printf("%s\n", *argv--);
 	return (0);
 	}
 }
