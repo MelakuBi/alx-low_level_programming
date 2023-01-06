@@ -1,4 +1,3 @@
-#!/bin/bash
 #include <stdio.h>
 #include "main.h"
 /**
@@ -10,6 +9,6 @@
 	int main(int argc, char *argv[])
 {
 	printf("%s\n", argc - 1);
-	(void)argv;
+	(void) argv;
 	return (0);
 }
