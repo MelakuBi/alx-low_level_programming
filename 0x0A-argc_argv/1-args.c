@@ -10,6 +10,7 @@
 {
 	while(argc)
 	printf("%s\n", argc);
+	arg++;
 	(void)argv;
 	return (0);
 }
