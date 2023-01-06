@@ -8,8 +8,17 @@
  */
 	int main(int argc, char *argv[])
 {
-	while (*argv)
-	{
-	if (argc == 2)
-	return (printf("%i * %i\n", *argv[argc - 1] * (*argv[argc - 2])));
+	int m = 0;
+
+	if (argc == 3)
+{
+	m = atoi(argv[1]) * atoi(argv[2]);
+	printf("%d\n", m);
+	return (0);
+}
+	else
+{
+	printf("Error\n");
+}
+	return (1);
 }
