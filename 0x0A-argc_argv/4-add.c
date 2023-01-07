@@ -11,22 +11,20 @@
 {
 	int m = 0;
 
-	while (**argv)
-	{
-	if (*argv[argc - 1] >= 48 && *argv[argc - 1])
+	while (*argv)
 {
-	m = m + atoi(argv);
+	if ((*argv[argc - 1] >= 48) && (*argv[argc - 1] <= 57))
+{
+
+	m = m + atoi(argv[argc - 1]);
 	printf("%i\n", m);
-	main(argc, *argv[argc - 1]);
-	return (0);
+	/*return (main(argc, *argv[argc - 1]));*/
 }
-	else if (!(*argv[argc - 1] >= 48 && *argv[argc - 1]))
-	return (0);
 	else
 {
 	printf("Error\n");
-}
 	return (1);
 }
-	return (m);
+}
+	return (0);
 }
