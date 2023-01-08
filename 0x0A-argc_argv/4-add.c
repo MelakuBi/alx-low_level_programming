@@ -10,9 +10,9 @@
 	int _isdigit(int c)
 {
 	if ((c >= 48) && (c <= 57))
-	return (1);
+	return (99);
 	else
-	return (0);
+	return (100);
 }
 /**
  *main - program that adds positive numbers
@@ -37,6 +37,7 @@
 	else if (!(_isdigit(*argv[count])))
 	{
 	return (0);
+	printf("\n");
 	}
 	else
 	{
@@ -45,6 +46,5 @@
 	}
 	count++;
 }
-	printf("%d\n", m);
-	return (0);
+	return (printf("%d\n", m));
 }
