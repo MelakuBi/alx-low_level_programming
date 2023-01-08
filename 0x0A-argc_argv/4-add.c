@@ -17,6 +17,7 @@
 /**
  *main - program that adds positive numbers
  * @argv : array that contains the arguments
+ * @argc : counts number of passed arguments
  * Return: on success 0
  */
 	int main(int argc, char *argv[])
