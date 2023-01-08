@@ -22,15 +22,15 @@
 	int main(int argc, char *argv[])
 {
 	int m = 0;
-	int val = 0;
+	int val;
 	int count = 1;
 
 	while (count < argc)
 {
-	val = atoi(argv[count]);
-	if (_isdigit(val))
-	{
 /*	val = atoi(argv[count]);*/
+	if (_isdigit(*argv[count]))
+	{
+	val = atoi(argv[count]);
 	m = m + val;
 	}
 	else if (!(_isdigit(*argv[count])))
