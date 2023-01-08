@@ -7,7 +7,7 @@
  * @argv : array that contains the arguments.
  * Return: on success 0
  */
-	int main(int argc, char *argv[])
+	int main(int argc, char **argv)
 {
 	int m = 0;
 
@@ -16,7 +16,7 @@
 	if ((*argv[argc - 1] >= 48) && (*argv[argc - 1] <= 57))
 {
 
-	m = m + (*argv[argc - 1]);
+	m = m + atoi(*argv++);
 	printf("%i\n", m);
 	/*return (main(argc, *argv[argc - 1]));*/
 }
