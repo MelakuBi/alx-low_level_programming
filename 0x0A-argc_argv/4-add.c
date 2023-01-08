@@ -29,17 +29,15 @@
 	while (count < argc)
 {
 /*	val = atoi(argv[count]);*/
-	if (((_isdigit(*argv[count]))) && ((*argv[count] >= 58) && (*argv[count] <= 100)))
-	{
-/**	if(!(_isdigit(*argv[count]))) || (!(_isdigit(*argv[count + '1']))))
-	{ */
-	printf("Error\n");
-	return (1);
-	}
-	else if (_isdigit(*argv[count]))
+	if (_isdigit(*argv[count]))
 	{
 	val = atoi(argv[count]);
 	m = m + val;
+	}
+	else if ((_isdigit(*argv[count])) && ((*argv[count] >= 58) && (*argv[count] <= 100)))
+	{
+	printf("Error\n");
+	return (1);
 	}
 	else
 	{
