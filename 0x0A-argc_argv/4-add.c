@@ -29,20 +29,20 @@
 	while (count < argc)
 {
 /*	val = atoi(argv[count]);*/
-	if (_isdigit(*argv[count]))
+	if ((_isdigit(*argv[count])) && (!(_isdigit(*argv[count]))))
+	{
+	printf("Error\n");
+	return (1);
+	}
+	else if (_isdigit(*argv[count]))
 	{
 	val = atoi(argv[count]);
 	m = m + val;
 	}
-	else if (!(_isdigit(*argv[count])))
+	else
 	{
 	return (0);
 	printf("\n");
-	}
-	else
-	{
-	printf("Error\n");
-	return (1);
 	}
 	count++;
 }
