@@ -1,10 +1,22 @@
 #include <stdio.h>
 #include "main.h"
+#include <limits.h>
 #include <stdlib.h>
 /**
- * main - program that adds positive numbers
- * @argc : number of arguments.
- * @argv : array that contains the arguments.
+ * _isdigit - it checks if imput is digit
+ * @c: intiger input variable
+ * Return: if variable is digit 1 else
+ */
+	int _isdigit(int c)
+{
+	if ((c >= 48) && (c <= 57))
+	return (1);
+	else
+	return (0);
+}
+/**
+ *main - program that adds positive numbers
+ * @argv : array that contains the arguments
  * Return: on success 0
  */
 	int main(int argc, char *argv[])
