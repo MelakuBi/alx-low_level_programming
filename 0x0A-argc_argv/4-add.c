@@ -11,12 +11,12 @@
 {
 	int m = 0;
 
-	while (*argv)
+	while(argv)
 {
 	if ((*argv[argc - 1] >= 48) && (*argv[argc - 1] <= 57))
 {
 
-	m = m + atoi(*argv[argc - 1]);
+	m = m + (*argv[argc - 1]);
 	printf("%i\n", m);
 	/*return (main(argc, *argv[argc - 1]));*/
 }
