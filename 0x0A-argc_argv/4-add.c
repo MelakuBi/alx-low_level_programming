@@ -34,7 +34,7 @@
 	val = atoi(argv[count]);
 	m = m + val;
 	}
-	else if ((_isdigit(*argv[count])) && ((*argv[count] >= 58) && (*argv[count] <= 100)))
+	else if (!(_isdigit(*argv[count])))
 	{
 	printf("Error\n");
 	return (1);
