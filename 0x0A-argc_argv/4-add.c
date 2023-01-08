@@ -7,24 +7,31 @@
  * @argv : array that contains the arguments.
  * Return: on success 0
  */
-	int main(int argc, char **argv)
+	int main(int argc, char *argv[])
 {
 	int m = 0;
+	int val = 0;
+	int count = 1;
 
-	while(argv)
+	while (count < argc)
 {
-	if ((*argv[argc - 1] >= 48) && (*argv[argc - 1] <= 57))
-{
-
-	m = m + atoi(*argv++);
-	printf("%i\n", m);
-	/*return (main(argc, *argv[argc - 1]));*/
-}
+	val = atoi(argv[count]);
+	if (_isdigit(val))
+	{
+/*	val = atoi(argv[count]);*/
+	m = m + val;
+	}
+	else if (!(_isdigit(*argv[count])))
+	{
+	return (0);
+	}
 	else
-{
+	{
 	printf("Error\n");
 	return (1);
+	}
+	count++;
 }
-}
+	printf("%d\n", m);
 	return (0);
 }
