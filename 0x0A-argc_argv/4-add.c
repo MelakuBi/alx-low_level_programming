@@ -23,27 +23,20 @@
 	int main(int argc, char *argv[])
 {
 	int m = 0;
-	int val, i;
+	int val;
 	int count = 1;
-	int check;
 
-	for (i = 1; i < argc - 1; i++)
-	check = _isdigit(*argv[i]);
 	while (count < argc)
 {
-	if ((check == 100) && (check == 99))
-	{
-	printf("Error\n");
-	return (1);
-/*	val = atoi(argv[count]);
-	m = m + val;*/
-	}
-	else if (_isdigit(*argv[count]))
+	if (_isdigit(*argv[count]))
 	{
 	val = atoi(argv[count]);
 	m = m + val;
-/*	printf("Error\n");
-	return (1);*/
+	}
+	else if ((!_isdigit(*argv[count])))
+	{
+	printf("Error\n");
+	return (1);
 	}
 	else
 	{
