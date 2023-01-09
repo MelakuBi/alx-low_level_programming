@@ -11,17 +11,18 @@
 	int main(int argc, char *argv[])
 {
 	int val, i, no;
-	int count = 0;
+	int count;
 
 	for (i = 1; i < argc; i++)
+	{
 	count++;
-	val = atoi(argv[1]);
-	(void)val;
+	val = atoi(argv[i]);
+	}
 	if (count == 0 || count > 1)
 {
 	printf("Error\n");
 }
-	else if (*argv[1] =='-')
+	else if (val < 0)
 	{
 	return (0);
 	printf("\n");
