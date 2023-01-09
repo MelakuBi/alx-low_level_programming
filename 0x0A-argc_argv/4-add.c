@@ -31,14 +31,14 @@
 	check = _isdigit(*argv[i]);
 	while (count < argc)
 {
-	if (_isdigit(*argv[count]) && check == 100)
+	if ((check == 100) && (check == 99))
 	{
 	printf("Error\n");
 	return (1);
 /*	val = atoi(argv[count]);
 	m = m + val;*/
 	}
-	if (_isdigit(*argv[count]))
+	else if (_isdigit(*argv[count]))
 	{
 	val = atoi(argv[count]);
 	m = m + val;
