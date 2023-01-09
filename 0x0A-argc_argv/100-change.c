@@ -22,7 +22,7 @@
 {
 	printf("Error\n");
 }
-	else if (val < 0)
+	else if (!(val > 0))
 	{
 	return (0);
 	printf("\n");
