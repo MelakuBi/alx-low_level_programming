@@ -33,7 +33,7 @@
 	val = atoi(argv[count]);
 	m = m + val;
 	}
-	else if ((!_isdigit(*argv[count])))
+	else if (!_isdigit(*argv[count]))
 	{
 	printf("Error\n");
 	return (1);
@@ -45,5 +45,5 @@
 	}
 	count++;
 }
-	return (printf("%d \n", m));
+	return (printf("%d\n", m));
 }
