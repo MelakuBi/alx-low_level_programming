@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
 /**
  * _strdup- a function to copy on a new allocated memo
  * area
@@ -16,8 +16,9 @@
 	return (NULL);
 	while (*(str + count))
 	count++;
+	pointer = malloc(sizeof(char) * (count + 1));
 	if (pointer == NULL)
-	i = 0;
+	return (NULL);
 	while (i <= count)
 	{
 	*(pointer + i) = *(str + i);
