@@ -17,7 +17,6 @@
 	s1 = "";
 	if (s2 == NULL)
 	s2 = "";
-
 	while (*(s1 + size1))
 	size1++;
 	while (*(s2 + size2))
