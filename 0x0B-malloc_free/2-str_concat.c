@@ -24,7 +24,8 @@
 	p = malloc((size1 + size2) + 1);
 	if (p == NULL)
 	return (NULL);
-	while (i <= size1)
+	i = 0;
+	while (i < size1)
 	{
 	*(p + i) = *(s1 + i);
 	i++;
