@@ -20,6 +20,7 @@
 	pointer = malloc(sizeof(char) * (count + 1));
 	if (pointer == NULL)
 	return (NULL);
+	i = 0;
 	while (i <= count)
 	{
 	*(pointer + i) = *(str + i);
