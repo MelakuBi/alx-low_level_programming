@@ -12,10 +12,10 @@
 	int size;
 	
 	size = width * height;
-	pointer = calloc(size, sizeof(int);
+	pointer = calloc(size, sizeof(int));
 	if (size <= 0)
 	return (NULL);
-	else if (pinter == NULL);
+	else if (pointer == NULL);
 	return (NULL);
 	else
 	return (pointer);
