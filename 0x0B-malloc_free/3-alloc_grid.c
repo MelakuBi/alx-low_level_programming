@@ -15,7 +15,7 @@
 	pointer = calloc(size, sizeof(int));
 	if (size <= 0)
 	return (NULL);
-	else if (pointer == NULL);
+	else if (pointer == NULL)
 	return (NULL);
 	else
 	return (pointer);
