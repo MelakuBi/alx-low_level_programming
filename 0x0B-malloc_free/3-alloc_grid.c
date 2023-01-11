@@ -15,14 +15,14 @@
 	pointer = malloc(sizeof(int)*size);
 	for(j = 0; j < height; j++)
 	{
-	pointer[j] = 0;
+	*pointer[j] = 0;
 	for (k = 0; k< width; k++)
-	pointer[k] = 0;
+	*pointer[k] = 0;
 	}
 	if (size <= 0)
 	return (NULL);
 	else if (pointer == NULL)
 	return (NULL);
 	else
-	return (pointer);
+	return (*pointer);
 }
