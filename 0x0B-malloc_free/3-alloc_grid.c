@@ -24,5 +24,5 @@
 	else if (pointer == NULL)
 	return (NULL);
 	else
-	return (*pointer);
+	return (pointer);
 }
