@@ -29,6 +29,5 @@
 	free(ptr);
 	return (NULL);
 	}
-}
 	return (ptr);
 }
