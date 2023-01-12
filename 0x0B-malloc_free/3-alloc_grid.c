@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 #include <stdlib.h>
 /**
  * alloc_grid- a function allocate block of memory to array
@@ -12,7 +13,7 @@
 	int w = width, h = height;
 
 	size = w * h;
-	int **pointer = (int **)malloc(sizeof(int) * size);
+	int *pointer = malloc(sizeof(int) * size);
 	for (j = 0; j < height; j++)
 	{
 	pointer[j] = 0;
@@ -24,5 +25,5 @@
 	else if (pointer == NULL)
 	return (NULL);
 	else
-	return (*pointer);
+	return (pointer);
 }
