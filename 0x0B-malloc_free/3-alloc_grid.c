@@ -10,13 +10,14 @@
 {
 	int **pointer;
 	int size, j, k;
-	
-	size = width * height;
-	pointer = malloc(sizeof(int)*size);
-	for(j = 0; j < height; j++)
+	int w = width, h = height;
+
+	size = w * h;
+	pointer = malloc(sizeof(int) * size);
+	for (j = 0; j < height; j++)
 	{
 	*pointer[j] = 0;
-	for (k = 0; k< width; k++)
+	for (k = 0; k < width; k++)
 	*pointer[k] = 0;
 	}
 	if (size <= 0)
