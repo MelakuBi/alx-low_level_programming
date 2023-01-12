@@ -11,9 +11,10 @@
 {
 	int size, j, k;
 	int w = width, h = height;
+	int **pointer[h][w];
 
 	size = w * h;
-	int *pointer = malloc(sizeof(int) * size);
+	pointer = malloc(sizeof(int) * size);
 	for (j = 0; j < height; j++)
 	{
 	pointer[j] = 0;
