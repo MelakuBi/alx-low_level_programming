@@ -12,7 +12,7 @@
 	int size, j, k;
 	
 	size = width * height;
-	pointer = malloc((1 + sizeof(int))*size);
+	pointer = malloc((sizeof(char) + sizeof(int))*(size));
 	for(j = 0; j < height; j++)
 	{
 	*pointer[j] = 0;
