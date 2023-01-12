@@ -6,7 +6,7 @@
  * @size: the size of elements on the Array
  * Return: void pointer to the allocated memory.
  */
- 	void *_calloc(unsigned int nmemb, unsigned int size)
+	void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int i;
 	char *arr;
