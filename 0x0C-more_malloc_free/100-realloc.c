@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdlib.h>
 /**
  * _realloc - a function that reallocates a memory block.
@@ -6,6 +7,8 @@
  * @new_size : the new size of reallocated memory
  * Return: void pointer.
  */
+	void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
+{
 	if (new_size > old_size)
 {
 	free(ptr);
@@ -28,4 +31,5 @@
 	return (NULL);
 	}
 	return (ptr);
+}
 }
