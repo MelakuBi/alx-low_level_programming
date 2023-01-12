@@ -1,40 +1,35 @@
+#include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * string_nconcat - a function that returns pointer to newly allocated memory
- * @s1 : the first string
- * @s2 : the second string
- * @n: limit of pointer return
- * @Return : Return pointer character
+ * *string_nconcat - a function that concatenates two strings.
+ * *@s1: destination string .
+ * @s2: string to be concatenated
+ * @n: number of bytes to copied
+ * Return: char pointer to the allocated memory
  */
 	char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *pointer;
-	int i, j;
-	int count1, count2, sum;
+	char *s;
+	unsigned int i, size1 = 0, size2 = 0;
 
-	while (s1)
-	count1++;
-	while (s2)
-	count2++;
-	sum = count1 + count2;
-	pointer = malloc((sizeof(pointer) * sum) + 1);
-	for (i = 0; i  <= count1; i++)
-	pointer[i] = s1[i];
-	for (j = 0 ; j <= count2; j++)
-	{
-	i++;
-	pointer[i] = s2[j];
-	}
-	for (i = 0 ; i <= count1; i++
-	printf("%s", pointer[i]);
-	if (n >= count2)
-	for (int j = i; j <= count2; j++)
-	return (printf("%s", pointer[j]));
-	else if (n <= count2)
-	for (int j = i; j <= n; j++)
-	return (printf("%s", pointer[j]));
-	return (printf("%c", \0));
-	if (pointer == NULL)
-	return (NULL);
+	if (s1 == NULL)
+	s1 = "";
+	if (s2 == NULL)
+	s2 = "";
+	while (*(s1 + size1) != '\0')
+	size1++;
+	while (*(s2 + size2) != '\0')
+	size2++;
+	if (size2 >= n)
+	size2 = n;
+	s = malloc(size1 + n + 1);
+	if (s == NULL)
+	return (s);
+	for (i = 0; i < size1; i++)
+	s[i] = s1[i];
+	for (i = 0; i < n; i++)
+	s[i + size1] = s2[i];
+	s[size1 + i] = '\0';
+	return (s);
 }
