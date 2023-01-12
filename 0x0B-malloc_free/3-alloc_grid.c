@@ -13,7 +13,7 @@
 	int w = width, h = height;
 
 	size = w * h;
-	pointer = malloc(sizeof(int) * size);
+	pointer = (int *)malloc(sizeof(int) * size);
 	for (j = 0; j < height; j++)
 	{
 	*pointer[j] = 0;
