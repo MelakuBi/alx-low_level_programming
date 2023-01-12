@@ -8,12 +8,11 @@
  */
 	int **alloc_grid(int width, int height)
 {
-	int **pointer;
 	int size, j, k;
 	int w = width, h = height;
 
 	size = w * h;
-	pointer = (int *)malloc(sizeof(int) * size);
+	int *pointer =(int *)malloc(sizeof(int) * sizei);
 	for (j = 0; j < height; j++)
 	{
 	*pointer[j] = 0;
