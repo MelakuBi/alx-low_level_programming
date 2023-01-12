@@ -11,7 +11,7 @@
 	int **pointer;
 	int size, j, k;
 	
-	size = width*height;
+	size = width * height;
 	pointer = malloc(sizeof(int)*size);
 	for(j = 0; j < height; j++)
 	{
