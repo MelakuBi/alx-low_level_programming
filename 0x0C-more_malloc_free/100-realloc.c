@@ -23,9 +23,9 @@
 	return (ptr = (int *) malloc(new_size));
 	if  (ptr == NULL)
 	return (NULL);
-	if (new_size == old_size)
+	else if (new_size == old_size)
 	return (ptr);
-	if (new_size == 0 && ptr)
+	else if (new_size == 0 && ptr)
 	{
 	free(ptr);
 	return (NULL);
