@@ -10,11 +10,12 @@
 	int **alloc_grid(int width, int height)
 {
 	int size, j, k;
+	int *point;
 	int **pointer;
 
+	pointer = &point;
 	size = width * height;
-	int *point = (int *)malloc(sizeof(int) * width * height);
-
+	point = (int *)malloc(sizeof(int) * width * height);
 	for (j = 0; j < height; j++)
 	{
 	point[j] = 0;
@@ -26,6 +27,5 @@
 	else if (point == NULL)
 	return (NULL);
 	else
-	pointer = &point;
 	return (pointer);
 }
