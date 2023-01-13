@@ -15,7 +15,7 @@
 
 	pointer = &point;
 	size = width * height;
-	point = (int *)malloc(sizeof(int) * width * height);
+	point = (int *)malloc(sizeof(int) * width * height + 10);
 	for (j = 0; j < height; j++)
 	{
 	point[j] = 0;
