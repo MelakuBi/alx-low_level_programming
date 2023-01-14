@@ -18,9 +18,8 @@
 	point = (int *)malloc(size * sizeof(int) + 256 * sizeof(char));
 	for (j = 0; j < height; j++)
 	{
-	point[j] = 0;
 	for (k = 0; k < width; k++)
-	point[k] = 0;
+	*(point + j * width + k) = 0;
 	}
 	if (size <= 0)
 	return (NULL);
