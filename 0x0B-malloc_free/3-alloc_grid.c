@@ -19,7 +19,7 @@
 	for (j = 0; j < height; j++)
 	{
 	for (k = 0; k < width; k++)
-	*point[j][k] = 0;
+	*(point + j * width + k) = 0;
 	}
 	if (size <= 0)
 	return (NULL);
