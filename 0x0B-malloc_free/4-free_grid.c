@@ -1,20 +1,14 @@
+#include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
 /**
- *free_grid - free a two dimensional grid
- * @grid: the given grid
- * @height: the given hei
- *      * Return: void
+ * free_grid- a function frees a memory block alocated by alloc_grid
+ * @grid: pointer to pass value
+ * @height: outer array
+ * Return: no return
  */
 	void free_grid(int **grid, int height)
 {
-	int i;
-
-	i = 0;
-	while (i < height)
-	{
-	free(grid[i]);
-	i++;
-	}
-	free(grid);
+	pointer = **alloc_grid(width, height);
+	grid = free(pointer);
 }
