@@ -9,6 +9,11 @@
  */
 	void free_grid(int **grid, int height)
 {
-	pointer = **alloc_grid(width, height);
-	grid = free(pointer);
+	int i;
+
+	for (int i = 0; i <= height; i++)
+	{
+	free(grid[i]);
+}
+	free(grid);
 }
