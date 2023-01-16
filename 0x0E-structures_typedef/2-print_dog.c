@@ -1,12 +1,13 @@
 #include "dog.h"
 #include <stdio.h>
-#include <stdlib.h>
 /**
  *print_dog- initializing
  *@d: pointe
  */
 	void print_dog(struct dog *d)
 {
+	if (d == NULL)
+	printf("\n");
 	if (d->name == NULL)
 	printf("name: (nil)");
 	else
