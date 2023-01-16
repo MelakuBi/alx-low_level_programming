@@ -16,6 +16,6 @@
 	if (d == NULL)
 	return (NULL);
 	d->name = name;
-	d->owner = owner;
+	d->owner = age;
 	return (d);
 }
