@@ -1,12 +1,18 @@
-#include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef DOG_H
+#define DOG_H
+
 /**
- * struct dog - define new structure dog
+ * struct dog- new structure
+ * @name: a name
+ * @age: age
+ * @owner: own
+ * Description: Longer Description
  */
-	struct dog
+	 struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 };
+
+#endif
