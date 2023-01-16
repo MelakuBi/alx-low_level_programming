@@ -14,6 +14,4 @@
 	printf("age: (nil)");
 	if (d->owner == NULL)
 	printf("owner: (nil)");
-	if (d == NULL)
-	exit;
 }
