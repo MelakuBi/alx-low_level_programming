@@ -9,9 +9,17 @@
 {
 
 	if (d->name == NULL)
+	{
 	printf("name: (nil)");
-	if (d->age == 0)
+	}
+	else if (d->age == 0)
+	{
 	printf("age: (nil)");
-	if (d->owner == NULL)
+	}
+	else if (d->owner == NULL)
+	{
 	printf("owner: (nil)");
+	}
+	else if (d == NULL)
+	printf(" ");
 }
