@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *init_dog- initializing
- *@d: pointer
+ *new_dog- initializing
  *@name: the dog name
  *@age: age of the dog
  *@owner: owner of the dog
+ *Return: value
  */
 	 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -16,6 +16,6 @@
 	if (d == NULL)
 	return (NULL);
 	d->name = name;
-	d->owner = age;
+	d->age = age;
 	return (d);
 }
