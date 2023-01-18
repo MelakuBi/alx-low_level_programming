@@ -18,7 +18,6 @@
 	if (cmp(array[ch]) != 0)
 	{
 	return (ch);
-	break;
 	}
 	ch++;
 	}
