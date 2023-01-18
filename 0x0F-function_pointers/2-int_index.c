@@ -15,7 +15,7 @@
 	{
 	for (ch = 0; ch < size; ch++)
 	{
-	if (cmp(array[ch]))
+	if cmp(array[ch])
 	break;
 	}
 	if (ch < size)
