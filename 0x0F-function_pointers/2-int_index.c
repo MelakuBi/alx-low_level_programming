@@ -13,8 +13,11 @@
 
 	if (size <= 0)
 	return (-1);
-	while (cmp(array[ch]) == 0)
+	while (ch < size)
+	{
+	if (cmp(array[ch]) == 0))
 	ch++;
+	}
 	return (ch);
 /*	return (-1);*/
 }
