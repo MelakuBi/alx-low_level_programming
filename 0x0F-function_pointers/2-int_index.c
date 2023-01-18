@@ -16,6 +16,5 @@
 	while (cmp(array[ch]) == 0 && (ch < size))
 	ch++;
 	return (ch);
-	return (-1);
 }
 
