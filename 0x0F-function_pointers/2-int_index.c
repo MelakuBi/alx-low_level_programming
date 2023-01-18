@@ -15,7 +15,7 @@
 	return (-1);
 	while (cmp(array[ch]) == 0 && (ch < size))
 	ch++;
-	return (ch - 1);
+	return (ch--);
 /*	return (-1);*/
 }
 
