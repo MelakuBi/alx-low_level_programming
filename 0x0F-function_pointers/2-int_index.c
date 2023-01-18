@@ -15,10 +15,13 @@
 	return (-1);
 	while (ch < size)
 	{
-	if (cmp(array[ch]) == 0))
+	if (cmp(array[ch]) != 0)
+	{
+	return (ch);
+	break;
+	}
 	ch++;
 	}
-	return (ch);
 /*	return (-1);*/
 }
 
