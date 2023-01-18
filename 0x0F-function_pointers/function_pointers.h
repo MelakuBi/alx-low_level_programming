@@ -1,7 +1,7 @@
 #ifndef _FUNCTION_POINTERS_H_
 #define _FUNCTION_POINTERS_H_
 
-typedef int size_t;
+typedef int SIZE_T;
 
 int _putchar(char);
 void print_name(char *name, void (*f)(char *));
