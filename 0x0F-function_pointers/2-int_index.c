@@ -11,8 +11,6 @@
 {
 	int ch = 0;
 
-	if (size <= 0)
-	return (-1);
 	while (ch < size)
 	{
 	if (cmp(array[ch]) != 0)
@@ -21,6 +19,6 @@
 	}
 	ch++;
 	}
-/*	return (-1);*/
+	return (-1);
 }
 
