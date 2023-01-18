@@ -12,7 +12,7 @@
 	int ch = 0;
 
 	if (size <= 0)
-	return (-1);
+	return (1);
 	while (cmp(array[ch]) == 0 && (ch < size))
 	ch++;
 	ch--;
