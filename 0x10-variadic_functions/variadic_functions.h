@@ -1,14 +1,6 @@
-#ifndef _VARIADIC_FUNCTION_H_
-#define _VARIADIC_FUNCTION_H_
-#include <stddef.h>
-
-struct type
-
-{
-	char *character;
-	void (*printf)(va_list);
-};
-typedef struct type variable_type;
+#include <stdarg.h>
+#ifndef VARIADIC_FUNCTIONS_H
+#define VARIADIC_FUNCTIONS_H
 
 int _putchar(char c);
 
