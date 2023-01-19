@@ -6,7 +6,7 @@
  * @separator: separator to print between numbers
  * @n: number of numbers to pri
  */
-void print_numbers(const char *separator, const unsigned int n, ...)
+	void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	int numbers;
@@ -20,6 +20,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	if (i < n - 1 && separator)
 	printf("%s", separator);
 	}
-	printf("\n");
 	va_end(arg_list);
+	printf("\n");
 }
