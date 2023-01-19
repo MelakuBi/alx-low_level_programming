@@ -12,9 +12,9 @@
 	va_list ap;
 	int i, a;
 
-	va_start(ap, n);
-	if (ap == 0)
+	if (n == 0)
 	return (0);
+	va_start(ap, n);
 	for (i = n; i >= 0; i = va_arg(ap, int))
 	a = a + n;
 	return (a);
