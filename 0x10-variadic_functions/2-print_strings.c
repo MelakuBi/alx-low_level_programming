@@ -5,6 +5,7 @@
  * print_strings- print string
  * @separator: sepa
  * @n: end
+ * Return: nothing
  */
 	void print_strings(const char *separator, const unsigned int n, ...)
 {

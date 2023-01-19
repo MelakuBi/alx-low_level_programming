@@ -2,9 +2,8 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 /**
- * print_string - print string
- * @separator: sepa
- * @n: end
+ * printf_c - print string
+ * @arg_variables: sepa
  */
 	void printf_c(va_list arg_variables)
 {
