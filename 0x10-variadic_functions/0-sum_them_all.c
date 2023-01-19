@@ -13,7 +13,7 @@
 	unsigned int i;
 	int a = 0;
 
-	if (n <= 0)
+	if (n == 0)
 	return (0);
 	va_start(ap, n);
 	for (i = 0; i < n; i++)
