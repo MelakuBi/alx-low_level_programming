@@ -18,4 +18,5 @@
 	for (i = n; i >= 0; i = va_arg(ap, int))
 	a = a + n;
 	return (a);
+	va_end(ap);
 }
