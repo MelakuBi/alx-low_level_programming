@@ -16,7 +16,7 @@
 	printf("Error\n");
 	exit(1);
 	}
-	bytes = atoi(argv[i]);
+	bytes = atoi(argv[1]);
 	if (bytes < 0)
 	{
 	printf("Error\n");
