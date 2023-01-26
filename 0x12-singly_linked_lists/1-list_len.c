@@ -10,7 +10,7 @@
 	int len = 0;
 
 	if (h == NULL)
-	return (0)
+	return (0);
 	while (h != NULL)
 	{
 	len++;

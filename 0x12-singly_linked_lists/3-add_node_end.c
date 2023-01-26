@@ -13,6 +13,7 @@
 	int i, n = 0;
 	list_t *new;
 	list_t *temp;
+
 	new = malloc(sizeof(list_t));
 	if (new == NULL)
 	return (NULL);

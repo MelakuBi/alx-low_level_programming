@@ -24,7 +24,7 @@
 	count ++;
 	new->len = i;
 	new->str = strdup(str);
-	new->next = *head
+	new->next = *head;
 	*head = new;
 	return (new);
 }
