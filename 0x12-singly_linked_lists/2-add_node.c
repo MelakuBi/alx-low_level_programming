@@ -21,7 +21,7 @@
 	if (new == NULL)
 	return (NULL);
 	for (i = 0; str[i] != '\0'; i++)
-	count ++;
+	count++;
 	new->len = i;
 	new->str = strdup(str);
 	new->next = *head;

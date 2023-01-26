@@ -20,7 +20,8 @@
 	}
 	else
 	{
-	printf("[%d] %s\n", h->len, h->str);}
+	printf("[%d] %s\n", h->len, h->str);
+	}
 	h = h->next;
 	count++;
 	}
