@@ -21,7 +21,7 @@
 	if (*head == NULL)
 {
 	*head = new;
-	return (new);												
+	return (new);
 }
 	temp = *head;
 	while (temp->next != NULL)

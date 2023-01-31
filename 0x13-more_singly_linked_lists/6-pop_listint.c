@@ -7,8 +7,8 @@
 	int pop_listint(listint_t **head)
 {
 	int nodedata;
-
 	listint_t *new;
+
 	if (*head == NULL)
 	return (0);
 	nodedata = (*head)->n;
