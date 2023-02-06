@@ -3,42 +3,41 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include <stdlib.h>
 #include <stdio.h>
 /**
- * _strlen - extracting the length of a string
- * @s: pointer to the string
- * Return: length of the string
- */
-	int _strlen(char *s)
-{
-	int length = 0;
-
-	while (s[length])
-	{
-	length++;
-	}
-	return (length);
-}
-/**
- * create_file - creates a file.
- * @filename: name of the file to create
- * @text_content: text to be written .
- * Return: 1 on success, -1 on failure
- */
-	int create_file(const char *filename, char *text_content)
+ * read_textfile - reads a txt file and prints it to standard output .
+ * @filename: name of the txt file to read .
+ * @letters: number of letters it should read and print
+ * Return: actual number of letters it could read and print
+  */
+	ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
-	ssize_t lenw = 0;
+	ssize_t r, w;
+	char *buffer;
 
-	if (!filename)
-	return (-1);
-	fd = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
-	if (fd < 0)
-	return (-1);
-	if (text_content)
-	lenw = write(fd, text_content, _strlen(text_content));
-	if (lenw == -1)
-	return (-1);
+	if (filename == NULL)
+	return (0);
+	fd = open(filename, O_RDWR);
+	if (fd == -1)
+	return (0);
+	buffer = malloc(letters);
+	if (buffer == NULL)
+	{
 	close(fd);
-	return (1);
+	return (0);
+	}
+	r = read(fd, buffer, letters);
+	close(fd);
+	if (r == -1)
+	{
+	free(buffer);
+	return (0);
+	}
+	w = write(STDOUT_FILENO, buffer, r);
+	free(buffer);
+	if (r != w)
+	return (0);
+	return (w);
 }
