@@ -1,15 +1,15 @@
 #include "main.h"
 /**
  * _puts - to get new line after output
- * @str: char variable pointer
+ * @s: char variable pointer
  */
-	void _puts(char *str)
+	void _puts(char *s)
 {
 	int i = 0;
 
-	while (str[i] != '\0')
+	while (s[i] != '\0')
 	{
-	_putchar(str[i]);
+	_putchar(s[i]);
 	i++;
 	}
 	_putchar('\n');
