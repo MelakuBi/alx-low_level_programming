@@ -1,15 +1,10 @@
 #makefile with variables to compilers .c files
-#.o files and the NAME variable which have value school
-CC= gcc -c
-SRC= main.c school.c
-OBJ= main.o school.o
-NAME= school
+#.o files and the NAME variable which have value schol
+
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
 
 all: $(OBJ)
-	$(CC)$(OBJ) -O $(NAME)
-
-main.o: main.c
-	$(CC) main.c
-
-school.o: school.c
-	$(CC) school.c
+	$(CC) $(OBJ) -o $(NAME)

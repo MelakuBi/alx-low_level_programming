@@ -1,21 +1,20 @@
-# makefile with variables to compilers .c files
-# .o files and the NAME
-
-CC=gcc
-SRC=school.c main.c
-OBJ=$(SRC:.c=.o)
-NAME=school
-RM=rm
+# makefile with variable
+#
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
+RM = rm -f
 
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
-clean: 
-	$(RM) -f *~ $(NAME)
+clean:
+	$(RM) *~ $(NAME)
 
-oclean: 
-	$(RM) -f $(OBJ)
+oclean:
+	$(RM) $(OBJ)
 
 fclean: clean oclean
 
-re: oclean all
+re: fclean all
