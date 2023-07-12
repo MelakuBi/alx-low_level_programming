@@ -22,7 +22,8 @@ size_t i;
 		printf("Value checked array[%lu] = [%d]\n", i, array[i]);
 		if (value == array[i])
 		{
-            return (printf("Found %d at index: %ld", value, i));
+        return (1);         
+/* return (printf("Found %d at index: %ld", value, i)); */
 		}
 	}
 	return (-1);
