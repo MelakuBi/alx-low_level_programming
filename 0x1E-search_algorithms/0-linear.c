@@ -19,7 +19,7 @@ size_t i;
 	}
 	for (i = 0; i < size; i++)
 	{
-		    printf("Value checked array[%lu] = [%d]\n", i, array[i]);
+		    printf("Value checked array[%lu] = [%i]\n", i, array[i]);
 		    if (value == array[i])
 		    {
                     return (i);         
